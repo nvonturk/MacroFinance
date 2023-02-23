@@ -1,0 +1,13 @@
+name = "MacroFinance"
+uuid = "2f1da7e6-048f-4239-8368-e1d138c4283e"
+authors = ["Nick von Turkovich <nvonturk@mit.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.8"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
